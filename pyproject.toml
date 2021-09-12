@@ -17,6 +17,7 @@ celery = "^5.1.2"
 aiofiles = "^0.7.0"
 docker = "^5.0.2"
 pika = "^1.2.0"
+redis = "^3.5.3"
 
 [tool.poetry.dev-dependencies]
 black = "^21.8b0"
