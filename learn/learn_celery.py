@@ -1,6 +1,8 @@
 """
 参考文档：
 https://docs.celeryproject.org/en/stable/
+https://flower.readthedocs.io/en/latest/
+https://github.com/mher/flower
 启动任务：celery -A learn.learn_celery worker --loglevel=INFO
 """
 
@@ -13,6 +15,7 @@ app = Celery(
 )
 
 import time
+
 
 @app.task
 def hello():
